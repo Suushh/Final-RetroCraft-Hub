@@ -102,5 +102,5 @@ function showfreelancerprofile() {
 
 function logout()
 {
-    window.location.href="home-pg.html";
+    window.location.href="index.html";
 }

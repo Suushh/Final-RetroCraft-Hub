@@ -26,6 +26,7 @@ User Interaction
 Job Application: Freelancers can see the avilable jobs by logging in and can also get the contact info of the producer.
 Profile Viewing: Employers can view freelancer profiles before making hiring decisions and can see their contact details too.
 
+Link for the video - https://drive.google.com/file/d/1RkCLoZM9i-bRbkjU9xnaMwqavaAAMR5E/view?usp=drivesdk
 Tech Stack
 Frontend: HTML, CSS, JavaScript
 Backend: Firebase Realtime Database

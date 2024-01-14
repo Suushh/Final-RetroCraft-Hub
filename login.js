@@ -37,7 +37,7 @@ const firebaseConfig = {
             
            
   
-            if ((storedPassword - password)===0 ) {
+            if ((storedPassword===password)) {
               if(userType === 'hire') {
              
               window.location.href = "HirePOV.html";

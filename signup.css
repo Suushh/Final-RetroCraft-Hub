@@ -1,0 +1,175 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fffeb2;
+    margin: 0;
+      padding: 0;
+      background-image: url('./logopg.png'); /* Replace 'path/to/your/image.jpg' with the actual path to your image file */
+      background-size: cover; /* Adjust the background size as needed */
+      background-position: center; /* Center the background image */
+      background-repeat: no-repeat; /* Prevent the background image from repeating */
+      height: 100vh; /* Make the body fill the entire viewport height */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#authForm {
+    background-color: #fffeb2;
+    padding: 20px;
+    border: solid #001219;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 450px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 580px;
+}
+#form_header {
+    display: inline-block;
+    font-size: 25px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 1000;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background: #001219;
+     -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+}
+#form_header_container {
+    height:20px;
+    width: 450px;
+    margin-bottom: 25px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    border: solid #001219;
+    border-radius: 8px;
+
+    padding: 20px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+
+    border-bottom: 1px solid transparent;
+    
+    background:#398f99;
+}
+#username{
+    display: block;
+    margin-bottom: 30px;
+    height: 50px;
+    background: rgba(165, 42, 42, 0.37);
+    background: rgba(165, 42, 42, 0.37);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+    color: black;
+    font-size: 26px;
+
+    border-bottom: 2px solid transparent;
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
+    border-image: #57542b;
+    
+}
+#password{
+    display: block;
+    margin-bottom: 25px;
+    height: 50px;
+    background: rgba(165, 42, 42, 0.37);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+    color: black;
+    font-size: 26px;
+
+    border-bottom: 2px solid transparent;
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
+    border-image: #57542b;
+
+}
+#form_container {
+    width: 100%;
+    height: 100%;
+
+    background-color: #fffeb2;
+    box-shadow: 0 0 50px -20px #000;
+    border-radius: 2%;
+
+    overflow: hidden;
+}
+input,
+select,
+button {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+
+}
+#userType{
+    background: rgba(165, 42, 42, 0.37);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+    color: black;
+    font-size: 15px;
+
+}
+
+button {
+    background:#398f99;
+    color: #001219;
+    border: 3px solid #001219;
+    border-radius: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 20px;
+    cursor: pointer;
+    height: 40px;
+    width: 250px;
+    height: 50px;
+    position: relative;
+    left: 110px;
+}
+#email{
+    display: block;
+    margin-bottom: 25px;
+    height: 50px;
+    background: rgba(165, 42, 42, 0.37);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+    color: black;
+    font-size: 26px;
+
+    border-bottom: 2px solid transparent;
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
+    border-image: #57542b;
+
+}
+#phone{
+    display: block;
+    margin-bottom: 25px;
+    height: 50px;
+    background: rgba(165, 42, 42, 0.37);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+    color: black;
+    font-size: 26px;
+
+    border-bottom: 2px solid transparent;
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
+    border-image: #57542b;
+
+}
+
+button:hover {
+    background-color: green;
+}
+

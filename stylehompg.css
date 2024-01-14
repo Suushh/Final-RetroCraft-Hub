@@ -1,0 +1,38 @@
+html,body{
+    background-color: #fffbe2;
+    
+}
+.text{
+    text-align: center;
+    font-size: 36px;
+    color:#064c72;
+    font-weight: bold;
+    -webkit-text-stroke: 1px #000; 
+
+}
+h1{
+    text-decoration: underline;
+}
+.container {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 2fr 4fr 0.5fr;
+    column-gap: 10px;
+   }
+   
+   .button {
+    display: grid;
+    align-items:center;
+    grid-template-columns: 3fr 10fr 6fr ;
+    column-gap: 20px;
+   }
+   .space{
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 3fr 10fr 7fr;
+    column-gap: 30px;
+    grid-template-rows: 9fr fr 3fr;
+    font-size: 40px;
+    
+   }
+   

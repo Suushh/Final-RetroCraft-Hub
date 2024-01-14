@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website</title>
+   
+    <link rel="stylesheet" href="./FreelancePOV.css">
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+
+    
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-storage.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+</head>
+<body>
+    
+
+    <div class="header">
+        <img id="logo" src="./logo.png" alt="LOGO" width="300" height="200">
+        <div class="navigation-buttons">
+            <button class="nav-button" onclick="showExperienceInput()">Experience</button>
+            <input type="number" id="check" placeholder="enter the value" style="display: none;">
+            <button id="check-button" style="display: none;" onclick="showjobsonexperience()">Check</button>
+            <button class="nav-button" id="pay-range" onclick="showPayGradeInput()">Pay Range</button>
+            <input type="number" id="check1" placeholder="enter the value" style="display: none;">
+            <button id="check-button1" style="display: none;" onclick="showjobsonpaygrade()">Check</button>
+            <button class="nav-button">Education</button>
+        </div>
+        <h2 style="font-size: 50px; font-family: Georgia, 'Times New Roman', Times, serif; color: #062e3d; ">Available Jobs</h2>
+        <!-- <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="What job are you looking for...">
+            <button id="searchButton" onclick="performSearch()">Search</button>
+        </div> -->
+    </div>
+    
+    <div class="post-container" id="box">
+        
+    </div>
+    
+    <button id="profileButton" class="profile-button" onclick="profileshow()">Profile</button>
+    <span id="datacontainer" class="data-box"></span>
+    
+    <button class="settings-button" id="logout" onclick="logout()">logout</button>
+    <span id="datacontainer" class="data-box"></span>
+        <!-- <span>Log out</span> -->
+    </div>
+
+    <script src="./FreelancePOV.js"></script>
+
+    <script>
+    
+    </script>
+</body>
+</html>

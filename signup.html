@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Authentication</title>
+  <link rel="stylesheet" type="text/css" href="signup.css">
+</head>
+<body>
+
+<form id="authForm">
+  <label for="username">Username:</label>
+  <input type="text" id="username" name="username" autocomplete="on" required>
+
+  <label for="password">Password:</label>
+  <input type="password" id="password" name="password" required>
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" autocomplete="on" required>
+  
+  <label for="phone">Phone no:</label>
+  <input type="text" id="phone" name="phone" autocomplete="on" required>
+
+  <label for="profilePicture">Profile Picture:</label>
+  <input type="file" id="profilePicture" name="profilePicture" required>
+
+  <label for="userType">I want to:</label>
+  <select id="userType" name="userType" required onchange="toggleTextBox()">
+    <option value="hire">Hire</option>
+    <option value="freelancer">Be a Freelancer</option>  
+  </select>
+  <div id="textBoxContainer" style="display: none;">
+    <label for="description" >Description/Previous projects:</label>
+    <input type="text" id="description" name="extraInfo" >
+  </div>
+  
+  <button type="submit" id="signupButton">Sign Up</button>
+</form>
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+
+<!-- Add SDKs for Firebase products that you want to use -->
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-storage.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+
+<script>
+  function toggleTextBox() {
+    var userType = document.getElementById("userType");
+    var textBoxContainer = document.getElementById("textBoxContainer");
+  
+    if (userType.value === "freelancer") {
+      textBoxContainer.style.display = "block";
+    } else {
+      textBoxContainer.style.display = "none";
+    }
+  }
+</script>
+
+<script src="signup.js"></script>
+</body>
+</html>

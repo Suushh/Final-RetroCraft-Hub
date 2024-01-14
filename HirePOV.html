@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./HirePOV.css">
+    
+</head>
+<body>
+    <img id="logo" src="./logo.png" alt="LOGO" width="300" height="200">
+    <p>
+    <h1>Innovate, Elevate, Employ: Together, We Make Careers!</h1>
+</p>
+    <div class="buttons">
+    <button type="=button" id="profileButton" onclick="profileshow()"> Profile</button>
+    <span id="datacontainer" class="data-box" > </span>
+    <button type="=button" id="settingButton" onclick="logout()" > Logout </button>
+    <div id="datacontainer"></div>
+    
+</div>
+<div class="post-container" id="box">
+   <h2>Available Freelancers</h2>  
+</div>
+    <button type="button" id="jobsbutton" onclick="Toggle()">Create Job </button>
+    <div id="dataontainer"></div>
+    
+    
+
+    <div class="Form" id="Form" style="display: none; margin-right: 230px;" >
+        <form id="Job" >
+            <label class="exp-input" style="margin-right: 30px;">  Experience(in years) </label>
+            <br>
+            <input id="experience" type="number" required/>
+            <br>
+            <label class="pay-input" style="margin-right: 70px;">Pay Grade</label>
+            <br>
+            <input type="text" id="payGrade" required/>
+            <br>
+            <label class="job-input">Job Title</label>
+            <br>
+            <input type="text" id="title" required/>
+            <br>
+            <button type="submit" id="submit">Submit</button>
+        </form>
+    </div>
+   
+
+</body>
+<Script>
+    var count=0;
+function Toggle()
+{
+    var hidediv=document.getElementById('box');
+   
+    
+    if(count%2===0)
+    {
+        hidediv.style.display="none"
+        Form.style.display="block";
+        count=count+1;
+        console.log(count);
+    }
+    else {
+        hidediv.style.display="block"
+        Form.style.display="none";
+        count=count+1;
+    }
+
+}
+</Script>
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+
+    
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-storage.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+
+
+<script src="HirePOV.js"></script>
+</html>

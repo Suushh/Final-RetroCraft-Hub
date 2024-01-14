@@ -1,0 +1,239 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fffbe2;
+}
+
+.search-bar {
+    text-align: center;
+    margin-top: 60px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    
+}
+
+#searchInput {
+    padding: 10px;
+    width: 400px;
+    height:45px;
+    background-color: #028391 ;
+    border: 5px solid #053649;
+    border-radius: 10px;
+}
+::placeholder{
+    color: #053649;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#searchButton {
+    padding: 10px 15px;
+    border: 3px solid #001219;
+    border-radius: 10px;
+    background-color: #028391;
+    color: #001219;
+    cursor: pointer;
+    width: 100px;
+    height:50px;
+    margin-left: 15px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#logo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #fffeb2;
+}
+.post-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.post-box {
+    width: 700px;
+    margin: 20px;
+    height:300px;
+    padding: 15px;
+    border: 5px solid #001219;
+    border-radius: 8px;
+    background-color: #fffeb2;
+}
+#profileButton {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #062e3d;
+    color: #8fd2ec;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#settingButton {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #062e3d;
+    color: #8fd2ec;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#profileButton {
+    right: 120px;
+}
+
+
+#settingButton {
+    right: 20px;
+}
+.data-box {
+  
+    position: fixed;
+    margin-left: 680px;
+    top:100px;
+    margin-top: 0px;
+    color:#001219;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:20px;
+  
+  }
+#jobsbutton {
+    width: 200px;
+    height: 80px;
+    background-color: #d2a88d;
+    border: 4px solid #d2a88d;
+    border-radius: 20px;
+    outline: none;
+    position: fixed;
+    color: #3d2a1e; /* Set text color to contrast with the image */
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 150px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+}
+.exp-input{
+    background-color: #d2a88d;
+    width: 260px;
+    height: 45px;
+    position:absolute;
+    margin-right: 70px;
+    margin-top: 140px;
+    text-align: center;
+    border: 4px solid #584031;
+    border-radius: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    
+    
+}
+.pay-input{
+    background-color: #d2a88d;
+    width: 250px;
+    height: 45px;
+    font-size: 30px;
+    position:fixed;
+    margin-top: 230px;
+    text-align: center;
+    border: 4px solid #584031;
+    border-radius: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+    
+}
+.job-input{
+    background-color: #d2a88d;
+    width: 250px;
+    height: 45px;
+    font-size: 30px;
+    position:fixed;
+    margin-top: 310px;
+    text-align: center;
+    border: 4px solid #584031;
+    border-radius: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+    
+}
+#experience{
+    position:fixed;
+    margin-top: 190px;
+    background-color: #e4c2ad;
+    height:30px;
+    font-size: 15px;
+    
+}
+#payGrade{
+    position: fixed;
+    margin-top: 280px;
+    height: 30px;
+    font-size: 15px;
+    background-color: #e4c2ad;
+
+}
+#title{
+    position: fixed;
+    margin-top: 360px;
+    height: 30px;
+    font-size: 15px;
+    background-color: #e4c2ad;
+}
+#submit{
+    position: fixed;
+    margin-top: 430px;
+    width: 140px;
+    height:50px;
+    background-color: #3d2a1e;
+    font-size: 30px;
+    color: #d2a88d;
+    margin-left: 45px;;
+
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: #3d2a1e;
+    font-style: italic;
+    font-size: 45px;
+
+}
+.post-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#box{
+    position: absolute;
+    
+    top:130px;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: #001219;
+    background-repeat: no-repeat;
+    background-image: url("./joblink.png");
+    background-size: cover; /* Adjust the background size as needed */
+      background-position: center; /* Center the background image */
+      background-repeat: no-repeat; /* Prevent the background image from repeating */
+      height: 850px; /* Make the body fill the entire viewport height */
+      width:880px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}

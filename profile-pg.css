@@ -1,0 +1,30 @@
+html,body {
+    background-image: url("./456.png");
+    background-size: cover; 
+     background-position: center; 
+   
+    background-repeat: no-repeat; 
+     height: 100%;
+     width:100%;
+     display: flex;
+     align-items: center;
+     justify-content: center; 
+
+    
+}
+#profile-details{
+    
+    font-weight:40px;
+    background-image: url("./13784.jpg");
+    filter: brightness(80%) contrast(160%) ;
+  
+     font-size: 50px;
+     text-align: center;
+     border: 10px double #01204e;
+     height: 500px;
+     width: 750px;
+     border-radius: 40px;
+     
+     
+ }
+
